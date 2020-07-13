@@ -1,6 +1,6 @@
-export default {
+const Colors: { [key: string]: any } = {
     RED: {
-        0: "#ffebee",
+        "0": "#ffebee",
         1: "#ffcdd2",
         2: "#ef9a9a",
         3: "#e57373",
@@ -304,3 +304,5 @@ export default {
         A7: "",
     },
 };
+
+export default Colors;

@@ -90,7 +90,7 @@ module.exports = {
         mainFields: ["module", "browser", "main"],
         alias: {
             app: path.resolve(__dirname, "./src/"),
-            components: path.resolve(__dirname, "./src/components"),
+            components: path.resolve(__dirname, "./src/components/"),
         },
     },
 

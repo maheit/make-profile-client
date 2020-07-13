@@ -1,0 +1,10 @@
+@import "themes.scss";
+@import "common.scss";
+@import "./index-page/index.scss";
+
+.root-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: block;
+}
