@@ -7,7 +7,7 @@ import {
 } from "../types/auth";
 
 const initialState: SystemState = {
-    loggedIn: true,
+    loggedIn: false,
     sessionId: undefined,
     user: undefined,
 };

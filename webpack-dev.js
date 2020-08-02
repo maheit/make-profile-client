@@ -4,7 +4,7 @@ const pagesConfig = require("./pages.js");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-let pagesList = { ...pagesConfig.pages }; // to get pages information
+let pagesList = { ...pagesConfig }; // to get pages information
 let pages = {}; // for webpack entry block
 let devUrlPatterns = [];
 let htmlWebpackPluginsPages = [];
@@ -121,6 +121,10 @@ module.exports = {
                 test: [/\.scss$|\.css$/],
                 use: ["style-loader", "css-loader", "sass-loader"],
             },
+            {
+                test: /\.(png|jpe?g|gif|svg)$/i,
+                use: ["file-loader"],
+            },
         ],
     },
     plugins: [...htmlWebpackPluginsPages],
@@ -138,6 +142,7 @@ module.exports = {
         port: 9001,
         historyApiFallback: true,
         // open: 'Google Chrome',
+        host: "192.168.43.105",
         openPage: [""],
         proxy: [
             {

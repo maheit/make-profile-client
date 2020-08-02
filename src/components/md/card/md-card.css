@@ -1,0 +1,25 @@
+.md-card-root {
+    --size: 0px;
+    border-radius: 12px;
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 16px 5px lightgrey;
+    padding: 6px;
+    overflow: hidden;
+    margin: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.md-card-root.top {
+    border-top: var(--size) solid var(--primary-color);
+}
+.md-card-root.left {
+    border-left: var(--size) solid var(--primary-color);
+}
+.md-card-root.right {
+    border-right: var(--size) solid var(--primary-color);
+}
+.md-card-root.bottom {
+    border-bottom: var(--size) solid var(--primary-color);
+}

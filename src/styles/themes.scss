@@ -12,3 +12,65 @@ $text-error: #ffffff;
 $text-warning: #000000;
 $text-info: #ffffff;
 $text-success: #ffffff;
+
+// primary = "primary",
+//     secondary = "secondary",
+//     disabled = "disabled",
+//     error = "error",
+//     warning = "warning",
+//     info = "info",
+//     success = "success",
+
+:root {
+    --primary-color: #651af0;
+    --primary-text: #ffffff;
+    --primary-background: linear-gradient(
+        45deg,
+        rgb(33, 150, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --secondary-color: #d8128c;
+    --secondary-text: #ffffff;
+    --secondary-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --disabled-color: #d8128c;
+    --disabled-text: #ffffff;
+    --disabled-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --error-color: #d8128c;
+    --error-text: #ffffff;
+    --error-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --warning-color: #d8128c;
+    --warning-text: #ffffff;
+    --warning-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --info-color: #d8128c;
+    --info-text: #ffffff;
+    --info-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+    --success-color: #d8128c;
+    --success-text: #ffffff;
+    --success-background: linear-gradient(
+        45deg,
+        rgb(2, 10, 243) 20%,
+        rgb(0, 150, 136) 90%
+    );
+
+    --font-family-1: "Times New Roman", Times, serif;
+}

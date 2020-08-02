@@ -25,6 +25,10 @@
     "homepage": "https://github.com/maheit/make-profile-client#readme",
     "dependencies": {
         "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "popper": "^1.0.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-redux": "^7.2.0",
@@ -50,6 +54,7 @@
         "css-loader": "^3.6.0",
         "eslint": "^7.3.1",
         "eslint-plugin-react": "^7.20.1",
+        "file-loader": "^6.0.0",
         "html-webpack-plugin": "^4.3.0",
         "node-sass": "^4.14.1",
         "prettier": "^2.0.5",
