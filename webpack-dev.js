@@ -142,7 +142,7 @@ module.exports = {
         port: 9001,
         historyApiFallback: true,
         // open: 'Google Chrome',
-        host: "192.168.43.105",
+        // host: "192.168.43.105",
         openPage: [""],
         proxy: [
             {
